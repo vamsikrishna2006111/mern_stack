@@ -1,0 +1,24 @@
+body{
+    background-color: aquamarine;
+    transition: background-color 1s ease-in 1s;
+
+}
+
+body:hover{
+    background-color: chartreuse;
+}
+body {
+    animation: moves 3s linear  3s 4 ;
+}
+
+@keyframes moves{
+    0%{
+        background-color: burlywood;
+        color: blue;
+    }
+    80%{
+        font-family:'Times New Roman', Times, serif;
+        background-color: azure;
+        color: cadetblue;
+    }
+}

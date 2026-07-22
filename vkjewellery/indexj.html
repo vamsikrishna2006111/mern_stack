@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VV Jewellers</title>
+
+    <link rel="stylesheet" href="stylej.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+    <div class="logo">
+        💎 VV Jewellers
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Jewellery...">
+        <button>🔍</button>
+    </div>
+
+    <nav>
+
+        <ul>
+
+           <li><a href="#">Home</a></li>
+
+            <li><a href="#">Collections</a></li>
+
+            <li><a href="#">About</a></li>
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <div class="icons">
+
+        <button id="loginBtn">Login</button>
+
+        <button id="registerBtn">Register</button>
+
+        <span class="wishlist">❤️</span>
+
+        <span class="cart">
+            🛒 <span id="cartCount">0</span>
+        </span>
+
+    </div>
+
+</header>
+
+     <!-- Hero Section -->
+
+    <section  class="hero">
+
+    <div class="overlay">
+
+        <h1>Luxury Jewellery Collection</h1>
+
+        <p>
+            Shine Every Moment with Elegant Gold, Diamond,
+            Platinum & Silver Jewellery.
+        </p>
+
+        <button id="shopBtn">
+            Shop Now
+        </button>
+
+    </div>
+
+    </section>
+    <!-- hero section -->
+
+
+     <!---offer bar-->
+    <section class="offer">
+
+    🎉 Festival Offer :
+    Flat 20% OFF on Diamond Jewellery
+
+    </section>
+    <!-- offer bar -->
+
+    <!-- ================= Categories ================= -->
+
+<section class="categories">
+
+    <h2>Shop by Category</h2>
+
+    <div class="category-container">
+
+        <div class="category-card">
+            <img src="assets/images/rings.jpg" alt="Rings">
+            <h3>Rings</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="assets/images/necklace.jpg" alt="Necklace">
+            <h3>Necklaces</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="assets/images/earrings.jpg" alt="Earrings">
+            <h3>Earrings</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="assets/images/bangles.jpg" alt="Bangles">
+            <h3>Bangles</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="assets/images/diamond.jpg" alt="Diamond">
+            <h3>Diamond</h3>
+        </div>
+
+        <div class="category-card">
+            <img src="assets/images/bridal.jpg" alt="Bridal">
+            <h3>Bridal Collection</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= Categories ================= -->
+
+
+
+    <!-- Featured Products -->
+<!-- ================= Featured Products ================= -->
+<section class="products">
+
+    <h2>Featured Jewellery</h2>
+
+    <div class="product-container" id="productContainer">
+
+    </div>
+
+</section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 VK Jewellery. All Rights Reserved.</p>
+
+    </footer>
+
+<script src="scriptj.js"></script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        💎 VK Jewellery
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="#">Collections</a></li>
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="product-details">
+
+    <div class="left">
+
+        <img id="productImage"
+        src="assets/images/ring1.jpg">
+
+    </div>
+
+    <div class="right">
+
+        <h1 id="productName">
+
+            Gold Ring
+
+        </h1>
+
+        <h2 id="productPrice">
+
+            ₹25,000
+
+        </h2>
+
+        <p>
+
+            Beautiful handcrafted jewellery made
+            with premium quality gold.
+
+        </p>
+
+        <label>
+
+            Quantity
+
+        </label>
+
+        <input
+        type="number"
+        value="1"
+        min="1">
+
+        <br><br>
+
+        <button class="buy">
+
+            Buy Now
+
+        </button>
+
+       <button id="addCart">
+Add To Cart
+</button>
+
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
